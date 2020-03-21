@@ -1,7 +1,12 @@
-text1 = input()
-print(type(text1))
-print("# of a:", text1.count("a"))
-print("# of b:", text1.count("b"))
-print("# of c:", text1.count("c"))
-print("# of d:", text1.count("d"))
-print("# of e:", text1.count("e"))
+str1 = "How are you John?"
+name = "Edgar"
+#First method
+str2 = str1[:12] + name + "?"
+print(str2)
+
+
+str1 = "How are you John?"
+#Second method
+str2 = str1.replace("John", name)
+
+print(str2)

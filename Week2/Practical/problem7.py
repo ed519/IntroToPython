@@ -1,13 +1,7 @@
-str1 = "How are you John?"
-name = "Edgar"
-#First method
-str2 = str1[:12] + name + "?"
-print(str2)
+country = "Armenia"
+years = 10
 
-
-str1 = "How are you John?"
-#Second method
-str2 = str1.replace("John", name)
-
-print(str2)
-
+print("Hi where are you from?")
+print("I am from", country)
+print("How long have you lived here?")
+print("For", years , "years!")

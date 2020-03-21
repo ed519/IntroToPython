@@ -1,4 +1,8 @@
-print("Enter your name:")
-user_name = input()
+num1 = input()
+num2 = input()
 
-print("Welcome,", user_name , "!")
+sum1 = int(num1) + int(num2) 
+
+print("Firts number:" , num1 )
+print("Second number:" , num2)
+print("Sum:", sum1)

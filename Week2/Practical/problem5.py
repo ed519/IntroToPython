@@ -1,4 +1,7 @@
-string1 = "sOmE sTrinG"
-print("The given string:", string1)
-print("All lowercase:", string1.lower() )
-print("All uppercase:", string1.upper() )
+text1 = input()
+print(type(text1))
+print("# of a:", text1.count("a"))
+print("# of b:", text1.count("b"))
+print("# of c:", text1.count("c"))
+print("# of d:", text1.count("d"))
+print("# of e:", text1.count("e"))

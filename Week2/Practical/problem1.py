@@ -1,5 +1,5 @@
-import sys
+name = input("Your name?:")
+last_name = input()
 
-print("Script name:", sys.argv[0])
-print("Number of arguments:", len(sys.argv))
-print("Argument values:", sys.argv)
+print("Name:", name)
+print("Last name:", last_name)
