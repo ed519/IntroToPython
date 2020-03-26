@@ -1,5 +1,5 @@
 import datetime
-import time
+#import time
 import calendar
 
 b_day = datetime.date(1999,4,12)
@@ -24,6 +24,7 @@ print("Yesterday:", yesterday)
 
 date_delta = datetime.timedelta(days = 2)
 print("Yesterday + 2 days:", yesterday + date_delta)
+
 
 date_delta = datetime.timedelta(days = 3)
 print("Yesterday - 3:", yesterday - date_delta)
